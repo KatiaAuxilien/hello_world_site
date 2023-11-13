@@ -20,9 +20,9 @@ jobs:
           # Numéro de port
           port: 22
           # Nom d'utilisateur
-          username: USERNAME
+          username: ${{ secrets.USERNAME }}
           # Mot de passe
-          password: PASSWORD
+          password:  ${{ secrets.PASSWORD }}
           # Dossier de destination dans le serveur
           remote_path: /public_html/hello_world_site/
           # Si on utilise sftp
