@@ -20,9 +20,9 @@ jobs:
           # Numéro de port
           port: 22
           # Nom d'utilisateur
-          username: Username
+          username: USERNAME
           # Mot de passe
-          password: password
+          password: PASSWORD
           # Dossier de destination dans le serveur
           remote_path: /public_html/hello_world_site/
           # Si on utilise sftp
